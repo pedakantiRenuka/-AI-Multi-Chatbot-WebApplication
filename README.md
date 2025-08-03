@@ -37,3 +37,13 @@ AI-Multi-Chatbot-WebApplication/
 ├── requirements.txt # Project dependencies
 └── .env.example # Example for setting up environment variables
 
+
+3. Install Dependencies
+  pip install -r requirements.txt
+4. Configure Environment Variables
+Create a .env file in the root directory and add your Gemini API key:
+GOOGLE_API_KEY=your_google_gemini_api_key
+
+▶️ Run the App
+streamlit run main.py
+
