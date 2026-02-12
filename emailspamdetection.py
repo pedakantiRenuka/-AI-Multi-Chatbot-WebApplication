@@ -12,7 +12,7 @@ def run():
 
     # Configure Gemini
     gen_ai.configure(api_key=GOOGLE_API_KEY)
-    model = gen_ai.GenerativeModel('gemini-1.5-flash')
+    model = gen_ai.GenerativeModel('models/gemini-2.5-flash')
 
     st.title("📧 Email-Spam Detection")
 

@@ -67,7 +67,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # Configure Gemini AI
 gen_ai.configure(api_key=GOOGLE_API_KEY)
-model = gen_ai.GenerativeModel("gemini-1.5-flash")
+model = gen_ai.GenerativeModel("models/gemini-2.5-flash")
 
 # Function to generate a summary
 def generate_summary(text_input):
